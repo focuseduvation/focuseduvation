@@ -1,0 +1,11 @@
+.hero__video img{
+    width: 100%;
+  top: -55%;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+    .next-kickoff {
+       top: 0;
+    }
+  }
