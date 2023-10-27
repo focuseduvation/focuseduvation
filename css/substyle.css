@@ -190,3 +190,144 @@ html, body {
   }
 }
 
+.hhs-profile-card-mod {
+  z-index:1
+}
+.hhs-row-overlay {
+  bottom:0;
+  height:100%;
+  left:0;
+  position:absolute;
+  right:0;
+  top:0;
+  width:100%;
+  z-index:1
+}
+.hhs-form-con {
+  margin:0 auto
+}
+@media (max-width:575px) {
+  .order-1-mobile .hhs-img {
+    margin-bottom:25px
+  }
+}
+.hhs-profile-card-mod {
+  position:relative
+}
+.hhs-profile-card-mod .row {
+  position:relative;
+  z-index:2
+}
+.hhs-profile-card-mod .hhs-social-team-con {
+  bottom:25px;
+  display:inline-flex;
+  position:absolute
+}
+.hhs-profile-card-mod .hhs-social-team-con a {
+  padding-left:0;
+  padding-right:10px
+}
+.hhs-profile-card {
+  margin-bottom:30px;
+  padding-bottom:25px;
+  position:relative
+}
+@media (max-width:992px) {
+  .hhs-profile-card-mod .col-lg {
+    margin-bottom:25px
+  }
+}
+@media (max-width:575px) {
+  .hhs-profile-card-mod .col-sm {
+    margin-bottom:25px
+  }
+}
+
+.hhs-card-content .groupper {
+  grid-template-columns:1fr 1fr;
+  margin:0 auto;
+  width:100%
+}
+.hhs-card-content .groupper p {
+  font-size:12px;
+  font-weight:600!important;
+  line-height:1rem
+}
+ 
+ /* .hhs-profile-content {
+  min-height:28rem
+} */
+.hhs-divider {
+  display:none
+}
+.fab {
+  font-family:Font Awesome\ 5 Brands!important;
+  font-weight:400
+}
+ .hhs-social-team-con i {
+  color:#3185ff
+}
+.hhs-profile-card {
+  background: rgba(255, 255, 255, 1);
+  padding: 0px;
+    padding-bottom: 0px;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+}
+.hhs-profile-card {
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+  position: relative;
+  box-shadow: .5rem .5rem .5rem 0rem rgba(0, 0, 0, 0.15);
+  border-radius: .25rem;
+}
+.hhs-profile-card h5 {
+  color: #666666;
+  line-height: 1.25rem !important;
+}
+.hhs-profile-content h5 {
+  font-size: 1.15rem;
+  padding: 0rem 0rem.5rem 0rem;
+}
+.hhs-profile-content h4 {
+  font-size: 1.5rem;
+  padding: 0rem 0rem 1rem 0rem;
+}
+.hhs-profile-card img {
+  width: 100%;
+}
+.hhs-profile-content {
+  padding: .5rem 1.5rem;
+  position: relative;
+  margin-top: -1rem;
+  min-height: 6rem;
+}
+.borderlay {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  display:flex;
+}
+
+.borderlay::before, .borderlay::after {
+  position: absolute;
+  left: -3%;
+  top: 89%;
+  width: 150%;
+  height: 3rem;
+  background: #e07026;
+  z-index: 0;
+  content: "";
+  display: inline-block;
+  bottom: auto;
+  right: auto;
+  transform: rotate(6deg);
+}
+
+.borderlay::after {
+  background: #fff;
+  top: 94%;
+  transform: rotate(8deg);
+  height: 4rem;
+}
