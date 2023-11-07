@@ -100,7 +100,7 @@ background-size: cover;
   border-radius: 1rem;
   border: .1rem solid rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  height: 110vh;
+  height: 111vh;
 }
 .curv1.spec::after {
   content: "";

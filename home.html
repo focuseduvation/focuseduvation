@@ -80,10 +80,10 @@
             </a>
             <input type="checkbox" id="sm1">
             <ul class="sub-menu">
-              <li><a href="custom_online.html"> Custom Online </a></li>
-              <li><a href="digital_marketing.html">Digital Marketing</a></li>
+              <li><a href="custom_online.html"> Custom Online Content Development, and LMS Hosting  </a></li>
+              <li><a href="digital_marketing.html">Digital Marketing, and Enrollment and Retention </a></li>
               <!-- <li><a href="enrolment_retention.html">Enrolment and retention</a></li> -->
-              <li><a href="virtual_labs.html">Virtual Labs</a></li>
+              <li><a href="virtual_labs.html">Virtual Labs and Simulations </a></li>
             </ul>
           </li>
           <li><a href="clients.html">Clients</a></li>
@@ -388,7 +388,7 @@ View Course Package
 <div class="container">
 <div class="next-kickoff__card">
    
-  <div class="owl-carousel owl-theme">
+  <div id="homely" class="homely owl-carousel owl-theme">
     <div class="grid-3">  
       <span>
       <p class="next-kickoff__capacity">Since the beginning of our partnership, Focus EduVation has met and far surpassed my expectations of working with industry-leading eLearning experts.
@@ -505,26 +505,28 @@ View Course Package
   <div class="container">
   <div class="ratings-banner__row">
   <div class="ratings-banner__col">
-    <a href="https://focusedusolutions.com/content-services" >
+    <a href="custom_online.html" target="_self" >
       <div class="card summary__card">
         <img src="  img/img001-8-768x512.jpg"    />
-        <h3 class="heading mid-page-cta__ri-card-title">Custom Content Creation </h3>
+        <h3 class="heading mid-page-cta__ri-card-title">
+          Custom Online, Content Development and LMS Hosting
+           </h3>
       </div>
     </a>
   </div>
  <div class="ratings-banner__col desktop-only">
-    <a href="/enrollment-and-retention">
+  <a href="digital_marketing.html" target="_self" >
     <div class="card summary__card">
       <img src="  img/art-por-0345-768x512.jpg"    />
-      <h3 class="heading mid-page-cta__ri-card-title">Digital Marketing </h3>
+      <h3 class="heading mid-page-cta__ri-card-title">Digital Marketing, and Enrollment and Retention </h3>
     </div>
     </a>  
   </div>
   <div class="ratings-banner__col desktop-only">
-    <a href="/enrollment-and-retention">
+    <a href="virtual_labs.html" target="_self" >
     <div class="card summary__card">
       <img src="  img/shutterstock_530129665-768x512.png"    />
-      <h3 class="heading mid-page-cta__ri-card-title">Enrollment and Retention </h3>
+      <h3 class="heading mid-page-cta__ri-card-title">Virtual Labs </h3>
     </div>
     </a>  
   </div>
@@ -536,9 +538,27 @@ View Course Package
     <div class="container">
       <h2 class="heading heading--underline-small heading--center summary__title" style="padding-top:3.5rem;">Clients</h2>
     <div class="tabbed-content">
+      <div id="clientsec" class="owl-carousel owl-theme moody">
+        <div>
+        <img src="img/university-of-wisconsin-milwaukee-1-logo-png-transparent-1.webp">
+        </div>
+        <div  >
+          <img src="img/download (1).webp">
+        </div>
+        <div  >
+          <img src="img/download (2).webp">
+        </div>
+        <div  >
+          <img src="img/SJC_Logo_Stack_rev (2).webp">
+        </div>
+        <div  >
+          <img src="img/UNLV-Arch-Color.webp">
+        </div>
+    </div>
 
     <div class="tabbed-content__control-headers" role="tablist" style="width:100%;">
-      <div id="wowslider-container">
+
+      <!-- <div id="wowslider-container">
         <div class="ws_images" style="width:100%;">
           <ul>
             <li>
@@ -606,7 +626,7 @@ View Course Package
             </li>
           </ul>
       </div>
-      </div>
+      </div> -->
     </div>
 
 
@@ -1067,7 +1087,7 @@ Google+
     });
     </script>
     <script type="text/javascript">
-    var owl = $('.owl-carousel');
+    var owl = $('#homely.owl-carousel');
     owl.owlCarousel({
         items:1,
         singleItem: true,
@@ -1086,6 +1106,34 @@ Google+
         owl.trigger('stop.owl.autoplay')
     })
     </script>
+
+<script type="text/javascript">  
+      var owl = $('#clientsec.owl-carousel');
+    owl.owlCarousel({
+      center: true,
+            items:3,
+            loop:true,
+            margin:60,
+            nav:false,
+            dots:true,
+            autoplay: true,
+            slideTransition: 'linear',
+            autoplayTimeout: 2500,
+            autoplaySpeed: 2500,
+            autoplayHoverPause: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:3
+                }
+            }
+        });
+   </script>
 
 </body>
 
