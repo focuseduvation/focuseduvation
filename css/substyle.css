@@ -2214,6 +2214,7 @@ a.v3_button:focus {
 	opacity: .6;
 	filter: hue-rotate(3deg);
   }
-  clients #course-summary.curv1.spec::after {
-	display: none;
+
+  .clients .curv1.spec::after {
+	display: none !important;
   }
