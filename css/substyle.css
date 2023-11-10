@@ -2137,9 +2137,9 @@ a.v3_button:focus {
 	display: flex;
   }
 
-  .industry-experts__logo svg{
+  industry-experts__logo svg {
 	display: flex;
-	height: 1.5rem;
+	height: 1.25rem;
   }
 
   .heading.unit__title.unit__title--indicator::before, .heading.unit__title.unit__title--indicator::after {
@@ -2217,4 +2217,14 @@ a.v3_button:focus {
 
   .clients .curv1.spec::after {
 	display: none !important;
+  }
+
+  .center-pull {
+	width: 75%;
+	margin: 0px auto;
+	display: flex;
+  }
+
+  .heading.upcoming-sessions-section__description {
+	line-height: 2;
   }
