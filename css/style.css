@@ -411,4 +411,7 @@ line-height:2rem;list-style-image:url(../img/checkmark.svg);list-style-position:
     width:30%;
     fill: rgb(20, 59, 135);
   }
+  .preload-me.lazy-load.aspect.is-loaded {
+    width: 6rem;
+  }
   @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
