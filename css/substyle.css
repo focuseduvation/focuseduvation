@@ -86,7 +86,7 @@ background-size: cover;
 }
 .curv1.sec::before {
   top: 0rem;
-  background: #b1a8b9;
+  background: rgba(16, 29, 66, 0.1);
   transform: skew(-36deg);
   line-height: 0;
   color: #fff;
