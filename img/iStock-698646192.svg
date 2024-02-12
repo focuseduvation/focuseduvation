@@ -48,7 +48,7 @@
 				<rect id="SVGID_1_" x="-45.98" y="6.51" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 54.0061 45.9773)" width="99.98" height="86.97"/>
 		</defs>
 		<clipPath id="SVGID_00000000220034928886533840000002294047442078131890_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			<use href="#SVGID_1_"  style="overflow:visible;"/>
 		</clipPath>
 		
 			<polygon style="clip-path:url(#SVGID_00000000220034928886533840000002294047442078131890_);fill:none;stroke:#FFFFFF;stroke-width:0.0194;stroke-miterlimit:10;" points="

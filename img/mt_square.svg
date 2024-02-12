@@ -403,7 +403,7 @@
 		<rect id="SVGID_1_" x="0" width="4656.4" height="2410.3"/>
 	</defs>
 	<clipPath id="SVGID_00000034790830013735794130000015336026702513895582_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		<use href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
 	<g style="clip-path:url(#SVGID_00000034790830013735794130000015336026702513895582_);">
 		<g>

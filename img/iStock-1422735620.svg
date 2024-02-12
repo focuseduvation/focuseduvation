@@ -13,7 +13,7 @@
 		<rect id="SVGID_1_" x="-20" y="-4.01" width="300" height="500"/>
 	</defs>
 	<clipPath id="SVGID_00000024692157537737664010000015059023797732114866_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		<use href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
 	<g style="clip-path:url(#SVGID_00000024692157537737664010000015059023797732114866_);">
 		<path class="st1" d="M209.96,856.35l0.44-0.26l0.02-0.04L226.05,829l15.68,27.17c0.05,0.09,0.13,0.15,0.23,0.17
@@ -258,7 +258,7 @@
 		<rect id="SVGID_00000153685341409374872250000014497920607472013726_" x="-148" y="-4.01" width="300" height="500"/>
 	</defs>
 	<clipPath id="SVGID_00000042003249942581479310000002352127918730386863_">
-		<use xlink:href="#SVGID_00000153685341409374872250000014497920607472013726_"  style="overflow:visible;"/>
+		<use href="#SVGID_00000153685341409374872250000014497920607472013726_"  style="overflow:visible;"/>
 	</clipPath>
 	<g style="clip-path:url(#SVGID_00000042003249942581479310000002352127918730386863_);">
 		<path class="st1" d="M81.96,856.35l0.44-0.26l0.02-0.04L98.05,829l15.68,27.17c0.05,0.09,0.13,0.15,0.23,0.17
