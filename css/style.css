@@ -805,7 +805,7 @@ line-height:2rem;list-style-image:url(../img/checkmark.svg);list-style-position:
       color: #09c;
     }
     .main-menu.clearfix > li:first-child {
-      width: 34%;
+      width: 32%;
     }
     #menu .sub-menu {
       display: none;
