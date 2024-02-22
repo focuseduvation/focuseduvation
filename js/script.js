@@ -77,6 +77,9 @@ function openURL(button) {
   modal.style.display = 'block'; // Show modal
 }
 
+function openPopupd(url) {
+  window.open(url, '_blank', 'width=640,height=480');
+}
 
 function closeVideoPopup() {
   var modal = document.getElementById('modal');
