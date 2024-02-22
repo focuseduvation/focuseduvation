@@ -1259,8 +1259,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .modal {
     background-color: #fff;
     padding: 20px;
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 90vw;
+    max-height: 90vh;
     overflow: auto;
     position: relative;
     border-radius: 10px;
@@ -1317,9 +1317,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /* Modal */
 .modal {
   background-color: #fff;
-  padding: 20px;
-  max-width: 80%;
-  max-height: 80%;
+  padding: 2rem;
+  max-width: 90vw;
+  max-height: 90vh;
   overflow: auto;
   position: relative;
   border-radius: 10px;
@@ -1328,11 +1328,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /* Close Button */
 .close {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: -1rem;
+  left: 0rem;
   cursor: pointer;
+  font-size: 4rem;
 }
-
 /* Content */
 .content {
   display: flex;
