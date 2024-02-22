@@ -49,26 +49,28 @@ function openURL(button) {
   content.innerHTML = ''; // Clear previous content
 
   if (url.match(/\.(jpeg|jpg|gif|png)$/) != null) {
-      // If the URL is an image
-      var img = document.createElement('img');
-      img.src = url;
-      content.appendChild(img);
+    // If the URL is an image
+    var img = document.createElement('img');
+    img.src = url;
+    content.appendChild(img);
+    document.getElementById('videoPlayer').style.display='none';
+    document.getElementById('modal').style.width='90vw';
+    document.getElementById('modal').style.height='90vh';
   } else if (url.match(/\.(pdf)$/) != null) {
-      // If the URL is a PDF
-      var pdfViewer = document.createElement('iframe');
-      pdfViewer.src = 'https://docs.google.com/viewer?url=' + url;
-      pdfViewer.style.width = '100%';
-      pdfViewer.style.height = '100%';
-      pdfViewer.frameBorder = '0';
-      content.appendChild(pdfViewer);
+    // If the URL is a PDF
+    document.getElementById('videoPlayer').style.display='none';
+    document.getElementById('modal').style.width='90vw';
+    document.getElementById('modal').style.height='90vh';
+    var pdfViewer = document.createElement('iframe');
+    pdfViewer.src = url;
+    pdfViewer.style.width = '90vw';
+    pdfViewer.style.height = '90vh';
+    pdfViewer.frameBorder = '0';
+    content.appendChild(pdfViewer);
   } else {
-      // If the URL is a webpage or other types
-      var iframe = document.createElement('iframe');
-      iframe.src = url;
-      iframe.style.width = '100%';
-      iframe.style.height = '100%';
-      iframe.frameBorder = '0';
-      content.appendChild(iframe);
+    // If the URL is a webpage or other types
+    window.open(url, '_blank');
+    return;
   }
 
   overlay.style.display = 'flex'; // Show overlay
