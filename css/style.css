@@ -245,6 +245,13 @@ line-height:2rem;list-style-image:url(../img/checkmark.svg);list-style-position:
   #menu .sub-menu a:hover {
     color: #444;
   }
+
+  .next-kickoff h2 {
+    color: #000 !important;
+    z-index: 999;
+    position: relative;
+    margin: 3rem auto;
+  }
   
   #toggle-menu .drop-icon, 
   #menu li label.drop-icon {
@@ -1285,7 +1292,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     max-height: 480px;
   }
   
-  
+  .input.input--stripe:not(.input--phone):not(.input--no-placeholder):not(.input--stripe)::placeholder, .input.input--textarea:not(.input--phone):not(.input--no-placeholder):not(.input--stripe)::placeholder, .input[type="email"]:not(.input--phone):not(.input--no-placeholder):not(.input--stripe)::placeholder, .input[type="number"]:not(.input--phone):not(.input--no-placeholder):not(.input--stripe)::placeholder, .input[type="password"]:not(.input--phone):not(.input--no-placeholder):not(.input--stripe)::placeholder, .input[type="tel"]:not(.input--phone):not(.input--no-placeholder):not(.input--stripe)::placeholder, .input[type="text"]:not(.input--phone):not(.input--no-placeholder):not(.input--stripe)::placeholder {
+    color: #040404;
+  }
   
   
     @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
