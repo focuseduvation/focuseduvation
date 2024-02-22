@@ -788,6 +788,11 @@ line-height:2rem;list-style-image:url(../img/checkmark.svg);list-style-position:
       margin: 0rem auto;
       width: 70%;
     }
+
+    .bgcirc{
+      background-color: #ffffff;
+      background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 10px ), repeating-linear-gradient( #cccccc55, #cccccc );
+    }
     
     #toggle-menu, 
     #menu a {
@@ -1142,6 +1147,7 @@ line-height:2rem;list-style-image:url(../img/checkmark.svg);list-style-position:
       border: 0 none;
       transition: none;
       min-height: 12rem;
+      background: repeating-radial-gradient( circle at 0 0, transparent 0, #ffffffb5 10px ), repeating-linear-gradient( #cccccc21, #ccc0 );
     }
     .grid-cap.x4 .box:nth-child(2n) {
       background: #2a72db;
