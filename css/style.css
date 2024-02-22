@@ -1144,7 +1144,7 @@ line-height:2rem;list-style-image:url(../img/checkmark.svg);list-style-position:
       min-height: 12rem;
     }
     .grid-cap.x4 .box:nth-child(2n) {
-      background: #e29002;
+      background: #2a72db;
     }
     .grid-cap.x4 .box:hover > * {
       transform: none !important;
