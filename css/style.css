@@ -47,6 +47,10 @@ h1:last-of-type {
   color: var(--grayishBlue);
 }
 
+h1.heading.hero__title {
+  color: #fff;
+  font-size: 3.5rem;
+}
 
 .box p {
   color: var(--grayishBlue);
