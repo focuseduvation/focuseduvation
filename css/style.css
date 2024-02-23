@@ -1247,6 +1247,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       .ratings-banner__col h3 {
         font-size: 100%;
          }
+    .tabbed-content-section p{
+          font-family: AvenirNext,Helvetica,Arial,sans-serif;
+          font-size: 1.1428571429rem;
+          line-height: 1.6;
+          margin-bottom:3rem;
+     }
   
          /* Overlay */
   .overlay {
