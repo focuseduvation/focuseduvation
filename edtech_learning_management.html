@@ -15,6 +15,17 @@
 </head>
 
 <body class id="body-v3" data-spy="scroll" data-target="#navbar-spy" data-offset="100">
+    <style>
+          .next-kickoff {
+                top: 0;
+                margin-top: -6rem;
+                margin-bottom: 3rem;
+            }
+            .next-kickoff h2 {
+                    margin: 0rem auto 6rem auto;
+            }
+ 
+    </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QX76T30VX9"></script>
     <script src="../../thirdPartyTracking/gtagv4.js"></script>
     <div id="v3">
@@ -1167,6 +1178,66 @@ Data Analytics Course </li> -->
                     </div>
                 </section>
 
+                
+                <section class="next-kickoff">
+                    <div class="container">
+                      <h2 class="heading heading--underline-small heading--center summary__title" style="color:#fff" data-scroll="in">Client Testimonials</h2>
+                    
+                    <div class="next-kickoff__card">
+                      <div id="homely" class="homely owl-carousel owl-theme">
+                        <div class="grid-3">  
+                          <span>
+                          <p class="next-kickoff__capacity">Thanks to the Focus EduVation team for all you have done to make this platform function. The platform has served us for several years, so thank you for all your assistance in creating and maintaining that program.</p>
+                         
+                        </span>
+                        <span>
+                          <picture class="featured-testimonial-section__picture"  >
+                            <source type="image/jpg" srcset="img/Malinda.jpg" sizes="(max-width: 767px) calc(100vw - 24px), 595px">
+                            <img loading="eager" type="image/jpg" sizes="(max-width: 767px) calc(100vw - 24px), 595px" src="img/Malinda.jpg" srcset="img/danielP.jpg 595w, img/danielP.jpg 1190w" alt="Daniel P" id="" class="featured-testimonial-section__img" width="520" height="523">
+                          </picture>
+                          <p class="heading featured-testimonial-section__name"> Dianne Castrucci,
+                             </p>
+                          <p class="heading featured-testimonial-section__position"> Executive Director,<br/> NH Alcohol & Drug Abuse Counselors Association | NH Training Institute on Addictive Disorders. </p>
+                        </span> 
+                      </div>
+                        <div  class="grid-3">  
+                          <span>
+                          <p class="next-kickoff__capacity">I was consistently amazed at how well the Focus EduVation team handled themselves, converting complex and old flash assets and responding to our request. Rarely does a contractor stop and ask if a mistake in the original asset should be corrected! This happened all the time. As the one who reviewed these assets, I can truly tell how happy I was to approve these and how rare it was to send back a correction. Because the Focus EduVation team did a great job meeting deadlines and quality control, I could spend more time helping my team achieve their goals. You were the only one in the room who was 100% confident in your team’s success.</p>
+                         
+                        </span>
+                        <span>
+                          <picture class="featured-testimonial-section__picture"  >
+                            <source type="image/jpg" srcset="img/Malinda.jpg" sizes="(max-width: 767px) calc(100vw - 24px), 595px">
+                            <img loading="eager" type="image/jpg" sizes="(max-width: 767px) calc(100vw - 24px), 595px" src="img/Malinda.jpg" srcset="img/danielP.jpg 595w, img/danielP.jpg 1190w" alt="Daniel P" id="" class="featured-testimonial-section__img" width="520" height="523">
+                          </picture>
+                          <p class="heading featured-testimonial-section__name"> Marc Cooper, </p>
+                          <p class="heading featured-testimonial-section__position"> Manager – Media Production , <br/> APEX Learning, Inc. </p>
+                        </span> 
+                      </div>
+                        <div  class="grid-3">  
+                          <span>
+                          <p class="next-kickoff__capacity">The team at Focus EduVation met all our needs and developed a fantastic, customized new hire training video for us. They stayed with our original quote and provided the best customer service to our team. We will turn to Focus EduVation in the future should another need arise.</p>
+                         
+                        </span>
+                        <span>
+                          <picture class="featured-testimonial-section__picture"  >
+                            <source type="image/jpg" srcset="img/Malinda.jpg" sizes="(max-width: 767px) calc(100vw - 24px), 595px">
+                            <img loading="eager" type="image/jpg" sizes="(max-width: 767px) calc(100vw - 24px), 595px" src="img/Malinda.jpg" srcset="img/danielP.jpg 595w, img/danielP.jpg 1190w" alt="Daniel P" id="" class="featured-testimonial-section__img" width="520" height="523">
+                          </picture>
+                          <p class="heading featured-testimonial-section__name"> Kristie Willis  </p>
+                          <p class="heading featured-testimonial-section__position"> Corporate HR Manager,  <br/> Cantex. </p> 
+                        </span> 
+                      </div>
+
+                    
+                      </div>
+                    
+                     </div>
+                    </div>
+                    </section>
+
+
+
                 <div id="course-curriculum" class="units units--dark" data-in-page-nav="Curriculum">
 
                     <div class="grid-bg">
@@ -1561,6 +1632,7 @@ Data Analytics Course </li> -->
             $('.owl-carousel').owlCarousel();
         });
     </script>
+    
     <script type="text/javascript">
         var owl = $('#dmslidesec.owl-carousel');
         owl.owlCarousel({
@@ -1581,6 +1653,26 @@ Data Analytics Course </li> -->
             owl.trigger('stop.owl.autoplay')
         })
     </script>
+     <script type="text/javascript">
+                var owl = $('#homely.owl-carousel');
+                owl.owlCarousel({
+                    items:1,
+                    singleItem: true,
+                    margin:0,
+                    nav:true,
+                    dots:true,
+                    loop:true,
+                    autoplay:false,
+                    autoplayTimeout:5000,
+                    autoplayHoverPause:true
+                });
+                $('.play').on('click',function(){
+                    owl.trigger('play.owl.autoplay',[1000])
+                })
+                $('.stop').on('click',function(){
+                    owl.trigger('stop.owl.autoplay')
+                })
+     </script>
 
 
 
