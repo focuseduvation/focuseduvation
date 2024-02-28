@@ -10,6 +10,7 @@
   --weight2: 400;
   --weight3: 600;
 }
+ 
 
 :before,:after{
   pointer-events: none;
@@ -421,6 +422,9 @@ p, .ratings-banner p {
   justify-content: space-around;
 
 }
+.c-slide-inner-1 p {
+  color: #000;
+}
 
 .c-rich-text-1 p {
     line-height: 1.5rem !important;
@@ -440,6 +444,25 @@ p, .ratings-banner p {
     border: 0;
     box-shadow: .5rem .5rem .7rem 0rem rgba(0, 0, 0, 0.3);
     cursor: pointer;
+  }
+  .buttonstrd {
+    display: flex;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    background: #ccc;
+    border-radius: .25rem;
+    box-shadow: 0 2px 8px -1px var(--shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: AvenirNext,Helvetica,Arial,sans-serif;
+    margin: 1rem auto;
+    min-width: 10rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    font-size: 1.15rem;
   }
   .course-curriculum .course-project-section__content.course-parallax {
     background: rgb(255, 255, 255);
@@ -601,17 +624,9 @@ p, .ratings-banner p {
     justify-content: center;
     padding: 2rem 0rem 1rem 0rem;
     grid-template-columns: repeat(3,1fr);
-  }:root {
-    --red: hsl(0, 78%, 62%);
-    --cyan: hsl(180, 62%, 55%);
-    --orange: hsl(34, 97%, 64%);
-    --blue: hsl(212, 86%, 64%);
-    --varyDarkBlue: hsl(234, 12%, 34%);
-    --grayishBlue: hsl(229, 6%, 66%);
-    --veryLightGray: hsl(0, 0%, 98%);
-    --weight1: 200;
-    --weight2: 400;
-    --weight3: 600;
+  }
+  .ratings-banner__col p {
+    min-height: 14rem;
   }
   
   .attribution { 
