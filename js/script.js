@@ -34,6 +34,9 @@ function openVideoPopup(button) {
   var videoSourceElement = document.getElementById('videoSource');
 
   videoSourceElement.setAttribute('src', videoSource);
+  overlay.style.pointerEvents = "none";
+  modal.style.pointerEvents = "none";
+  videoPlayer.style.pointerEvents = "none";
   videoPlayer.load();
   
   overlay.style.display = 'flex'; // Show overlay
@@ -65,6 +68,7 @@ function openURL(button) {
     pdfViewer.src = url;
     pdfViewer.style.width = '90vw';
     pdfViewer.style.height = '90vh';
+    pdfViewer.style.pointerEvents = "none";
     pdfViewer.frameBorder = '0';
     content.appendChild(pdfViewer);
   } else {
@@ -75,7 +79,13 @@ function openURL(button) {
 
   overlay.style.display = 'flex'; // Show overlay
   modal.style.display = 'block'; // Show modal
+
+  // Prevent context menu on content
+  content.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+  });
 }
+
 
 function openPopupd(url) {
   window.open(url, '_blank', 'width=640,height=480');
