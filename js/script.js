@@ -34,8 +34,8 @@ function openVideoPopup(button) {
   var videoSourceElement = document.getElementById('videoSource');
 
   videoSourceElement.setAttribute('src', videoSource);
-  overlay.style.pointerEvents = "none";
-  modal.style.pointerEvents = "none";
+  // overlay.style.pointerEvents = "none";
+  // modal.style.pointerEvents = "none";
   videoPlayer.style.pointerEvents = "none";
   videoPlayer.load();
   
